@@ -1,6 +1,15 @@
-/* reset css */
+/* reset css. */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* here we add our css variables. */
+:root {
+  --main-bg-color: brown;
+}
+
+.container {
+  max-width: 90%;
 }
