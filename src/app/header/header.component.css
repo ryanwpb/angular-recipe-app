@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: inline;
+}
+
+li:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+li a {
+  text-decoration: none;
+}
