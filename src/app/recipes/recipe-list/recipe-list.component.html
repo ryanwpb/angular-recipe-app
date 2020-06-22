@@ -1,7 +1,6 @@
-<div class="col med">
-  <button class="new-recipe">New Recipe</button>
-</div>
-<div class="col med">
+<button class="new-recipe">New Recipe</button>
+
+<div class="col-three">
   <a href="#" class="recipe-card" *ngFor="let recipe of recipies">
     <div class="card-text">
       <h3>{{ recipe.name }}</h3>
@@ -11,5 +10,5 @@
       <img [src]="recipe.imagePath" alt="{{ recipe.name }}" />
     </div>
   </a>
-  <app-recipe-item></app-recipe-item>
 </div>
+<app-recipe-item></app-recipe-item>
