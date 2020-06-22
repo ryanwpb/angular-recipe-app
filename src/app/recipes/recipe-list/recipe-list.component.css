@@ -41,3 +41,11 @@ a.recipe-card {
   display: block;
   height: 100%;
 }
+
+/* media queries */
+@media only screen and (max-width: 767px) {
+  a.recipe-card {
+    max-width: calc(100% / 1);
+    margin: 1rem auto;
+  }
+}
