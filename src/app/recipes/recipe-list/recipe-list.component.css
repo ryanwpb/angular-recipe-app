@@ -1,0 +1,16 @@
+a.recipe-card {
+  display: block;
+  max-width: 300px;
+  box-shadow: 0 17px 30px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.recipe-card img {
+  width: 100%;
+  display: block;
+}
