@@ -8,6 +8,10 @@
   letter-spacing: 1px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* here we add our css variables. */
 :root {
   --main-bg-color: brown;
