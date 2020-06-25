@@ -10,14 +10,14 @@ export class RecipeListComponent implements OnInit {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
   recipies: Recipe[] = [
     new Recipe(
-      'Test Recipe',
+      'Bulgogi Beef Tacos',
       'This is the description',
       'https://i.pinimg.com/originals/79/2c/8c/792c8c2f72c6fb8f542a0829d3ff6466.png'
     ),
     new Recipe(
-      'Test Recipe 2',
+      'Beef Bolognese',
       'This is the description 2',
-      'https://i.pinimg.com/originals/79/2c/8c/792c8c2f72c6fb8f542a0829d3ff6466.png'
+      'https://data.thefeedfeed.com/static/2019/02/25/15511122255c741821d4b2f.jpg'
     ),
     new Recipe(
       'Test Recipe 3',

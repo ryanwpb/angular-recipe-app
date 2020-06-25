@@ -1,6 +1,6 @@
 a.recipe-card {
   display: flex;
-  width: calc(95%);
+  max-width: 425px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   align-items: center;
