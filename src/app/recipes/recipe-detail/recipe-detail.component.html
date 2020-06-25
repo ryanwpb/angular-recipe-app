@@ -1,10 +1,10 @@
 <div class="col-lrg">
   <div class="recipe-details">
-    <img src="" alt="" />
+    <img [src]="recipe.imagePath" alt="{{ recipe.name }}" />
   </div>
   <div class="detail-text">
-    <h3>Recipe Name</h3>
-    <p>Recipe description here...</p>
+    <h3>{{ recipe.name }}</h3>
+    <p>{{ recipe.description }}</p>
   </div>
   <div class="detail-manage">
     <ul>
