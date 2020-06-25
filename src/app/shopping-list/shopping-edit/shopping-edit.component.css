@@ -1,0 +1,20 @@
+form {
+  max-width: 376px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 97%;
+  padding: 0.3rem;
+  margin: 10px auto;
+  border: solid 1px #ccc;
+  border-radius: 0.25rem;
+}
+
+button[type="button"] {
+  margin-left: 1rem;
+}
