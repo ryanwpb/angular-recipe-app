@@ -1,0 +1,17 @@
+.recipe-details {
+  max-width: 367px;
+  margin: 3rem auto;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.recipe-details img {
+  max-height: 350px;
+  width: 100%;
+}
+
+.detail-text,
+.detail-manage,
+.ingredients {
+  padding: 0 1rem;
+}

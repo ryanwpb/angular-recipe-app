@@ -15,13 +15,13 @@ export class RecipeListComponent implements OnInit {
       'https://i.pinimg.com/originals/79/2c/8c/792c8c2f72c6fb8f542a0829d3ff6466.png'
     ),
     new Recipe(
-      'Test Recipe',
-      'This is the description',
+      'Test Recipe 2',
+      'This is the description 2',
       'https://i.pinimg.com/originals/79/2c/8c/792c8c2f72c6fb8f542a0829d3ff6466.png'
     ),
     new Recipe(
-      'Test Recipe',
-      'This is the description',
+      'Test Recipe 3',
+      'This is the description 3',
       'https://i.pinimg.com/originals/79/2c/8c/792c8c2f72c6fb8f542a0829d3ff6466.png'
     ),
   ];
