@@ -22,7 +22,7 @@ export class RecipeListComponent implements OnInit {
     new Recipe(
       'Cheese Pizza',
       'This is the description 3',
-      'https://infatuation.imgix.net/media/images/reviews/rubirosa/Rubirosa%20-%20vodka%20pizza%204.jpg?auto=format&h=890&w=1336'
+      'https://d3tv8y14ogpztx.cloudfront.net/pulses/images/000/025/005/show_box/rubirosa.jpg'
     ),
   ];
   constructor() {}
