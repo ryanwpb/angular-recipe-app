@@ -1,3 +1,9 @@
+.col-three {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 button.new-recipe {
   padding: 10px 15px;
   background: #ff5a5f;
@@ -8,44 +14,8 @@ button.new-recipe {
   cursor: pointer;
 }
 
-.col-three {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-a.recipe-card {
-  display: flex;
-  max-width: calc(95% / 3);
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 0.5rem;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  overflow: hidden;
-  color: #222;
-  text-decoration: none;
-}
-
-.card-text {
-  padding: 1rem;
-}
-
-.card-img {
-  width: 45%;
-}
-
-.recipe-card img {
-  width: 100%;
-  display: block;
-  height: 100%;
-}
-
-/* media queries */
 @media only screen and (max-width: 767px) {
-  a.recipe-card {
-    max-width: calc(100% / 1);
-    margin: 1rem auto;
+  .col-three {
+    flex-wrap: wrap;
   }
 }
