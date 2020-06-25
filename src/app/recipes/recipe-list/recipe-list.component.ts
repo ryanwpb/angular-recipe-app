@@ -20,9 +20,9 @@ export class RecipeListComponent implements OnInit {
       'https://data.thefeedfeed.com/static/2019/02/25/15511122255c741821d4b2f.jpg'
     ),
     new Recipe(
-      'Test Recipe 3',
+      'Cheese Pizza',
       'This is the description 3',
-      'https://i.pinimg.com/originals/79/2c/8c/792c8c2f72c6fb8f542a0829d3ff6466.png'
+      'https://infatuation.imgix.net/media/images/reviews/rubirosa/Rubirosa%20-%20vodka%20pizza%204.jpg?auto=format&h=890&w=1336'
     ),
   ];
   constructor() {}
